@@ -12,6 +12,9 @@ import java.net.URL;
 import java.util.List;
 import java.util.Properties;
 
+/*
+* the below class uses Hikari pool to create a connection to the postgres database instance
+ */
 public class CustomPersistenceUnitInfo implements PersistenceUnitInfo {
 
     @Override
