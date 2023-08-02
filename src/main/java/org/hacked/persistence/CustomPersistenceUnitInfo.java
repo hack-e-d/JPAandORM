@@ -44,6 +44,11 @@ public class CustomPersistenceUnitInfo implements PersistenceUnitInfo {
     }
 
     @Override
+    public List<String> getManagedClassNames() {
+        return List.of("org.hacked.Entities.Product","org.hacked.Entities.Employee");
+    }
+
+    @Override
     public DataSource getNonJtaDataSource() {
         return null;
     }
@@ -61,11 +66,6 @@ public class CustomPersistenceUnitInfo implements PersistenceUnitInfo {
     @Override
     public URL getPersistenceUnitRootUrl() {
         return null;
-    }
-
-    @Override
-    public List<String> getManagedClassNames() {
-        return List.of("org.hacked.Entities.Product");
     }
 
     @Override
