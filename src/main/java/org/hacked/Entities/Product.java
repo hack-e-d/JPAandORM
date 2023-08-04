@@ -1,30 +1,40 @@
 package org.hacked.Entities;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
+import org.hacked.Entities.Keys.ProductKey;
 
+//Composed Primary Key
 @Entity(name = "product")
 @Table(schema = "jpa")
+//not needed when using embedded Id class
+//@IdClass(ProductKey.class)
 public class Product {
-    @Id
-    private Long id;
 
-    private String name;
+    @EmbeddedId
+    private ProductKey id;
 
-    public Long getId() {
+    private String color;
+
+    public ProductKey getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public String getColor() {
+        return color;
+    }
+
+    public void setId(ProductKey id) {
         this.id = id;
     }
-
-    public String getName() {
-        return name;
+    public void setColor(String color) {
+        this.color = color;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    @Override
+    public String toString() {
+        return "Product{" +
+                "id=" + id +
+                ", color='" + color + '\'' +
+                '}';
     }
 }

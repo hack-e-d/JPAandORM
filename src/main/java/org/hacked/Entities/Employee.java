@@ -1,6 +1,8 @@
 package org.hacked.Entities;
 
 import jakarta.persistence.*;
+import org.hacked.Entities.Generators.UUIDGenerator;
+import org.hibernate.annotations.GenericGenerator;
 
 /*
 * The entity annotation is the name of the context that is used in the ORM
@@ -13,18 +15,20 @@ import jakarta.persistence.*;
 public class Employee {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+//    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GenericGenerator(name = "UUIDGenerator", type = UUIDGenerator.class)
+    @GeneratedValue(generator = "UUIDGenerator")
+    private String id;
 
     private String name;
 
     private String address;
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 

@@ -1,3 +1,6 @@
-C:\Users\gs1-vijayp\Desktop\PWI\JPAandORM\JPAandORM\src\main\java\org\hacked\Entities\Product.java
-C:\Users\gs1-vijayp\Desktop\PWI\JPAandORM\JPAandORM\src\main\java\org\hacked\persistence\CustomPersistenceUnitInfo.java
-C:\Users\gs1-vijayp\Desktop\PWI\JPAandORM\JPAandORM\src\main\java\org\hacked\Main.java
+C:\Users\gs1-vijayp\Desktop\PWI\JPAandORM\src\main\java\org\hacked\Entities\Keys\ProductKey.java
+C:\Users\gs1-vijayp\Desktop\PWI\JPAandORM\src\main\java\org\hacked\Entities\Employee.java
+C:\Users\gs1-vijayp\Desktop\PWI\JPAandORM\src\main\java\org\hacked\Entities\Product.java
+C:\Users\gs1-vijayp\Desktop\PWI\JPAandORM\src\main\java\org\hacked\Main.java
+C:\Users\gs1-vijayp\Desktop\PWI\JPAandORM\src\main\java\org\hacked\persistence\CustomPersistenceUnitInfo.java
+C:\Users\gs1-vijayp\Desktop\PWI\JPAandORM\src\main\java\org\hacked\Entities\Generators\UUIDGenerator.java

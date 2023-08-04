@@ -1,3 +1,6 @@
-org\hacked\persistence\CustomPersistenceUnitInfo.class
 org\hacked\Entities\Product.class
 org\hacked\Main.class
+org\hacked\persistence\CustomPersistenceUnitInfo.class
+org\hacked\Entities\Generators\UUIDGenerator.class
+org\hacked\Entities\Employee.class
+org\hacked\Entities\Keys\ProductKey.class
