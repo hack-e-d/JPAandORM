@@ -2,9 +2,9 @@ package org.hacked;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
-import org.hacked.Entities.Employee;
-import org.hacked.Entities.Keys.ProductKey;
-import org.hacked.Entities.Product;
+import org.hacked.entities.Employee;
+import org.hacked.entities.keys.ProductKey;
+import org.hacked.entities.Product;
 import org.hacked.persistence.CustomPersistenceUnitInfo;
 import org.hibernate.jpa.HibernatePersistenceProvider;
 

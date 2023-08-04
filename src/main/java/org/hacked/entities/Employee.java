@@ -1,7 +1,7 @@
-package org.hacked.Entities;
+package org.hacked.entities;
 
 import jakarta.persistence.*;
-import org.hacked.Entities.Generators.UUIDGenerator;
+import org.hacked.entities.generators.UUIDGenerator;
 import org.hibernate.annotations.GenericGenerator;
 
 /*

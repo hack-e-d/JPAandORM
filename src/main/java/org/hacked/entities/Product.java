@@ -1,7 +1,7 @@
-package org.hacked.Entities;
+package org.hacked.entities;
 
 import jakarta.persistence.*;
-import org.hacked.Entities.Keys.ProductKey;
+import org.hacked.entities.keys.ProductKey;
 
 //Composed Primary Key
 @Entity(name = "product")

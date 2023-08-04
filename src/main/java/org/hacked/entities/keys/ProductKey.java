@@ -1,4 +1,4 @@
-package org.hacked.Entities.Keys;
+package org.hacked.entities.keys;
 
 import jakarta.persistence.Embeddable;
 

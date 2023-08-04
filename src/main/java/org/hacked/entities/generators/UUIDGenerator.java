@@ -1,4 +1,4 @@
-package org.hacked.Entities.Generators;
+package org.hacked.entities.generators;
 
 import org.hibernate.engine.spi.SharedSessionContractImplementor;
 import org.hibernate.id.IdentifierGenerator;
